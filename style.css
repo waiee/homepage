@@ -3,12 +3,14 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
 }
 
 nav {
     position: fixed;
     width: 100%;
-    background-color: #333;
+    background-color: #383838; /* Dark mode background color */
     z-index: 1000;
     top: 0;
     left: 0;
@@ -27,14 +29,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
 }
 
 nav ul li a:hover {
-    background-color: #575757;
+    background-color: #444; /* Dark mode hover color */
     border-radius: 5px;
 }
 
@@ -44,45 +46,89 @@ div {
 }
 
 #greetings {
-    background-color: #f4f4f4;
+    background-color: #222; /* Dark mode background color */
 }
 
 #about {
-    background-color: #e4e4e4;
+    background-color: #333; /* Dark mode background color */
 }
 
 #portfolio {
-    background-color: #d4d4d4;
+    background-color: #444; /* Dark mode background color */
 }
 
 #contact {
-    background-color: #c4c4c4;
+    background-color: #555; /* Dark mode background color */
 }
 
-.greetings-section {
-    text-align: center;
-}
-
-.greetings-heading {
-    font-size: 36px;
+.greetings-heading{
+    font-size: 70px;
     margin-bottom: 20px;
 }
 
+.greetings-section h1{
+    color: #fff; /* Dark mode text color */
+    text-align: center; /* Center align the headings */
+}
+.greetings-section h2 {
+    color: #fff; /* Dark mode text color */
+    text-align: center; /* Center align the heading */
+    font-weight: normal; /* Set font-weight to normal */
+}
+
+.greetings-section .button {
+    color: #fff; /* Dark mode text color */
+    text-align: center; /* Center align the buttons */
+}
+
 .button-container {
-    margin-top: 1px; /* Adjust this value as needed */
+    margin-top: 20px; /* Adjust as needed */
+    text-align: center; /* Center align the button container */
 }
 
 .button {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
     margin: 0 10px;
+    background-color: #007bff; /* Default button background color */
+    color: #fff; /* Default button text color */
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Default button hover color */
+}
+
+
+.greetings-subheading {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.linkedin {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.github {
+    background-color: #333;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #555;
 }
 

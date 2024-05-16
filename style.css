@@ -42,7 +42,6 @@ nav ul li a:hover {
 
 div {
     padding: 100px 20px;
-    min-height: 100vh;
 }
 
 #greetings {
@@ -61,19 +60,24 @@ div {
     background-color: #555; /* Dark mode background color */
 }
 
+
+/* Greetings */
 .greetings-heading{
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
-.greetings-section h1{
-    color: #fff; /* Dark mode text color */
-    text-align: center; /* Center align the headings */
-}
-.greetings-section h2 {
+.greetings-section h1 {
+    font-weight: 500; /* Use a lighter font weight */
+    font-family: 'Arial', sans-serif; /* Change font family as needed */
     color: #fff; /* Dark mode text color */
     text-align: center; /* Center align the heading */
-    font-weight: normal; /* Set font-weight to normal */
+}
+.greetings-section h2 {
+    font-weight: 300; /* Use a lighter font weight */
+    font-style: italic; /* Apply italic font style */
+    color: #fff; /* Dark mode text color */
+    text-align: center; /* Center align the heading */
 }
 
 .greetings-section .button {
@@ -81,46 +85,36 @@ div {
     text-align: center; /* Center align the buttons */
 }
 
+.greetings-subheading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* Button */
 .button-container {
     margin-top: 20px; /* Adjust as needed */
     text-align: center; /* Center align the button container */
 }
 
 .button .fa {
-    margin-right: 5px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
 }
 
 .button {
     display: inline-block;
     text-decoration: none;
     padding: 12px 24px;
-    border-radius: 5px;
+    border-radius: 20px; /* Make the button more oval-shaped */
     transition: background-color 0.3s;
     font-size: 16px;
     margin: 0 10px;
     background-color: #007bff; /* Default button background color */
     color: #fff; /* Default button text color */
 }
-
 .button:hover {
-    background-color: #0056b3; /* Default button hover color */
+    background-color: #009c75; /* Default button hover color */
 }
-
-.greetings-subheading {
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
-.button {
-    display: inline-block;
-    text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-size: 16px;
-    margin: 0 10px;
-}
-
 .linkedin {
     background-color: #0077b5;
     color: #fff;

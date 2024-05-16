@@ -19,7 +19,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Pushes navigation items to the right */
+    padding-right: 20px; /* Adds some right padding */
 }
 
 nav ul li {

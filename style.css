@@ -63,12 +63,11 @@ div {
 
 /* Greetings */
 .greetings-heading{
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .greetings-section h1 {
-    font-weight: 500; /* Use a lighter font weight */
     font-family: 'Arial', sans-serif; /* Change font family as needed */
     color: #fff; /* Dark mode text color */
     text-align: center; /* Center align the heading */
@@ -86,8 +85,8 @@ div {
 }
 
 .greetings-subheading {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 

@@ -19,8 +19,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-end; /* Pushes navigation items to the right */
-    padding-right: 20px; /* Adds some right padding */
+    justify-content: center;
 }
 
 nav ul li {
@@ -59,3 +58,31 @@ div {
 #contact {
     background-color: #c4c4c4;
 }
+
+.greetings-section {
+    text-align: center;
+}
+
+.greetings-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 1px; /* Adjust this value as needed */
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
